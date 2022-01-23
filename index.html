@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="functions/createTable.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="page">
+            <div class="table__container">
+                <table class="table__main">
+                    <thead class="table__thead thead">
+                    <button class="table__button _btn">Get data</button>
+                        <tr class="thead__container ">
+                            <th class="thead__item">Name</th>
+                            <th class="thead__item">Balance</th>
+                            <th class="thead__item">Email</th>
+                            <th class="thead__button button">
+                                <div>isActive</div>
+                                <div class="button__container">
+                                    <button class="button__true _btn">true</button>
+                                    <button class="button__false _btn">false</button>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="table__tbody tbody"></tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <iframe class="iframehidden" src="https://layout-it.github.io/TESTTT/default.json" onload="jsonOnLoad.apply(this,colback)"/>
+</body>
+</html>

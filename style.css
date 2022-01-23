@@ -1,0 +1,123 @@
+.table__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+}
+
+.table__main{
+    max-width: 70%;
+    width: 100%;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.table__button{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.thead__item{
+    font-family: 'Comic Sans MS';
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(0deg, #87C438, #a2ea1b);
+    width: 33%;
+    padding: 20px 0;
+    text-shadow: 5px 5px 5px #46582a;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.button{
+    color: #87C438;
+    font-size: 20px;
+    padding: 10px;
+}
+.button__container{
+    display: flex;
+}
+.button__true{
+    margin-right: 5px;
+}
+.button__false{
+    margin-left: 5px;
+}
+._btn{
+    background: linear-gradient(0deg, #87C438, #a2ea1b);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 3px #78ad32;
+    text-shadow: 5px 5px 5px #46582a;
+    color: white;
+    font-size: 15px;
+}
+._btn:hover{
+   box-shadow: 5px 5px 5px #78ad32;
+}
+._btn:active{
+    box-shadow: 3px 3px 3px #78ad32;
+    position: relative;
+    top: 1px;
+}
+
+.tbody__wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.tbody__container{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.tbody__container:hover{
+    position: relative;
+    left: 5px;
+
+}
+
+.tbody__trChild{
+    display: none;
+}
+
+._active{
+    display:table-row;
+    background-color: #e8fcd7;
+    width: 100%;
+}
+
+.tbody__cell{
+    padding: 20px 10px;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    font-weight: 700;
+    color: #79986F;
+    text-align: center;
+    transition: 0.3s ease;
+    border: 1px solid #79986F;
+}
+.iframehidden{
+    visibility: hidden;
+}
